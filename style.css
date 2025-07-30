@@ -5,3 +5,49 @@ body {
     text-align:center;
     margin: 0;
 }
+
+header {
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: underline;
+}
+
+header img {
+    height: 50px;
+    margin: 10px;
+}
+
+nav a {
+    margin: 0 10px;
+}
+
+.mission {
+    height: 700px;
+    background-image: url(images/cereal.png);
+    background-size: cover;
+    background-position: center;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Tea-of-the-Month {
+    max-width: 1000px
+    margin: 70px auto;
+}
+
+.Tea-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Tea img {
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+}
