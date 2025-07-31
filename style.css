@@ -21,7 +21,10 @@ header img {
 }
 
 nav a {
+    color: seashell;
     margin: 0 10px;
+    text-decoration: underline;
+    font-size: 18px;
 }
 
 .mission {
@@ -31,18 +34,32 @@ nav a {
     background-position: center;
     
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.Tea-of-the-Month {
-    max-width: 1000px
-    margin: 70px auto;
+.label {
 }
 
-.Tea-grid {
+
+.Tea-of-the-Month {
+    max-width: 1000px;
+    margin: 70px auto;
+    gap: 15px;
+}
+
+.tea-grid {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Tea {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     justify-content: center;
 }
 
@@ -50,4 +67,67 @@ nav a {
     height: 200px;
     width: 300px;
     margin: 10px;
+}
+
+.Locations {
+    height: 500px;
+    width: 1200px;
+    margin: 0 auto;
+    background-image: url(images/blackteacup.png); /* Replace with actual image */
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.Locations .cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding-left: 120px;
+    padding-right: 120px;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-size: 70px;
+    margin: 10px;
+}
+
+.Shop {
+    background-color: black;
+    color: seashell;
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+    opacity: 0.9;
+    margin: 20px;
+    flex-direction: row; /* Stack heading and cards vertically */
+}
+
+footer {
+    height: 250px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+}
+
+.Contact {
+    justify-content: center;
+    padding: 20px;
+}
+
+#Copyright {
+    position: absolute;
+    text-align: left;
+    left: 20px;
+    bottom: 20px;
+    margin: 0;
 }
